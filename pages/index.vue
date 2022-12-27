@@ -1,11 +1,17 @@
-<template>
-  <Tutorial />
-</template>
+<script>
+import Banner from './home/Banner.vue'
 
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage'
-})
+export default {
+  name: 'IndexPage',
+  components: {
+    Banner
+  },
+  layout: 'BaseLayout'
+}
 </script>
+
+<template>
+  <div>
+    <Banner />
+  </div>
+</template>
