@@ -12,7 +12,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', type: 'image/x-icon', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&family=Squada+One&display=swap' }
     ]
   },
 
@@ -47,5 +48,8 @@ export default {
         autoprefixer: {}
       }
     }
+  },
+  dir: {
+    layouts: 'layouts'
   }
 }
