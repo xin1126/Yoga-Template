@@ -4,6 +4,19 @@
 
 @layer base {
   html {
-    font-family: 'Squada One', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, system-ui, cursive, sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    @apply font-medium
+  }
+
+  img {
+    @apply object-cover
+  }
+
+  p,a,button {
+    @apply font-normal
+  }
+
+  .container {
+    @apply sm:!px-10
   }
 }

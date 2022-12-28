@@ -1,10 +1,12 @@
 <script>
 import Banner from './home/Banner.vue'
+import Effect from './home/Effect.vue'
 
 export default {
   name: 'IndexPage',
   components: {
-    Banner
+    Banner,
+    Effect,
   },
   layout: 'BaseLayout'
 }
@@ -12,6 +14,7 @@ export default {
 
 <template>
   <div>
-    <Banner />
+    <Banner class="md:mb-10 mb-8" />
+    <Effect class="md:mb-16 mb-12" />
   </div>
 </template>

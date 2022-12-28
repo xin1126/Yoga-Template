@@ -31,7 +31,7 @@ export default {
       bg,
       padding
     ]"
-    class="duration-200 font-bold"
+    class="duration-200"
   >
     <slot />
   </button>

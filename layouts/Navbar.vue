@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="fixed w-full drop-shadow-lg">
     <div class="bg-light z-20 relative">
       <div class="flex items-center justify-between container">
         <img src="@/assets/images/logo.png" alt="logo" class="w-[96px] py-7">
