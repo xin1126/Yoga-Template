@@ -13,7 +13,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type: 'image/x-icon', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&family=Squada+One&display=swap' }
+      { rel: 'stylesheet', href:'https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap' }
     ]
   },
 
@@ -24,6 +24,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~/plugins/aos', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
