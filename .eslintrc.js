@@ -2,16 +2,21 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true
+    node: true,
+  },
+  parserOptions: {
+    parser: "@babel/eslint-parser",
+    requireConfigFile: false,
   },
   extends: [
-    '@nuxtjs/eslint-config-typescript',
-    'plugin:nuxt/recommended'
+    "@nuxtjs",
+    "plugin:prettier/recommended",
+    "plugin:tailwindcss/recommended",
   ],
-  plugins: [
-  ],
+  plugins: ["tailwindcss", "vue"],
   // add your custom rules here
   rules: {
-    capIsNew: false
-  }
-}
+    "vue/multi-word-component-names": "off",
+    "tailwindcss/no-custom-classname": "off",
+  },
+};

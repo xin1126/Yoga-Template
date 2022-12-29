@@ -3,22 +3,22 @@ export default {
   props: {
     rounded: {
       type: String,
-      default: ''
+      default: "",
     },
     padding: {
       type: String,
-      required: true
+      required: true,
     },
     border: {
       type: Boolean,
-      default: false
+      default: false,
     },
     bg: {
       type: String,
-      default: ''
-    }
-  }
-}
+      default: "",
+    },
+  },
+};
 </script>
 
 <template>
@@ -26,10 +26,12 @@ export default {
     type="button"
     :class="[
       rounded === 'xl' ? 'rounded-xl' : 'rounded',
-      border ? 'border border-primary !text-primary hover:bg-secondary hover:!text-white' : 'hover:opacity-80',
+      border
+        ? 'border border-primary !text-primary hover:bg-secondary hover:!text-white'
+        : 'hover:opacity-80',
       bg === 'bg-light' ? 'text-dark' : 'text-white',
       bg,
-      padding
+      padding,
     ]"
     class="duration-200"
   >

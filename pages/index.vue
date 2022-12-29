@@ -1,23 +1,29 @@
 <script>
-import Banner from './home/Banner.vue'
-import Effect from './home/Effect.vue'
-import Teacher from './home/Teacher.vue'
+import Banner from "./home/Banner.vue";
+import Effect from "./home/Effect.vue";
+import Teacher from "./home/Teacher.vue";
+import Environment from "./home/Environment.vue";
+import Course from "./home/Course.vue";
 
 export default {
-  name: 'IndexPage',
+  name: "IndexPage",
   components: {
     Banner,
     Effect,
-    Teacher
+    Teacher,
+    Environment,
+    Course,
   },
-  layout: 'BaseLayout'
-}
+  layout: "BaseLayout",
+};
 </script>
 
 <template>
   <div>
-    <Banner class="md:mb-10 mb-8" />
-    <Effect class="md:mb-16 mb-12" />
-    <Teacher class="md:mb-16 mb-12" />
+    <Banner class="mb-8 md:mb-10" />
+    <Effect class="mb-12 md:mb-16" />
+    <Teacher class="mb-12 md:mb-16" />
+    <Environment class="mb-12 md:mb-14 xl:mb-16" />
+    <Course />
   </div>
 </template>
