@@ -5,6 +5,7 @@ import Teacher from "./home/Teacher.vue";
 import Environment from "./home/Environment.vue";
 import Course from "./home/Course.vue";
 import Plan from "./home/Plan.vue";
+import Share from "./home/Share.vue";
 
 export default {
   name: "IndexPage",
@@ -15,6 +16,7 @@ export default {
     Environment,
     Course,
     Plan,
+    Share,
   },
   layout: "BaseLayout",
 };
@@ -28,5 +30,6 @@ export default {
     <Environment class="mb-12 md:mb-14 xl:mb-16" />
     <Course />
     <Plan />
+    <Share />
   </div>
 </template>
