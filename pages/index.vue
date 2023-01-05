@@ -4,6 +4,7 @@ import Effect from "./home/Effect.vue";
 import Teacher from "./home/Teacher.vue";
 import Environment from "./home/Environment.vue";
 import Course from "./home/Course.vue";
+import Plan from "./home/Plan.vue";
 
 export default {
   name: "IndexPage",
@@ -13,6 +14,7 @@ export default {
     Teacher,
     Environment,
     Course,
+    Plan,
   },
   layout: "BaseLayout",
 };
@@ -25,5 +27,6 @@ export default {
     <Teacher class="mb-12 md:mb-16" />
     <Environment class="mb-12 md:mb-14 xl:mb-16" />
     <Course />
+    <Plan />
   </div>
 </template>

@@ -30,6 +30,7 @@ export default {
         ? 'border border-primary !text-primary hover:bg-secondary hover:!text-white'
         : 'hover:opacity-80',
       bg === 'bg-light' ? 'text-dark' : 'text-white',
+      !padding.includes('px') && 'block, w-full',
       bg,
       padding,
     ]"
