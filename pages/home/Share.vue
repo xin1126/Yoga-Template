@@ -71,14 +71,14 @@ export default {
 </script>
 
 <template>
-  <div class="bg-light py-8 sm:pt-10 sm:pb-16">
+  <div class="bg-light py-8 sm:py-10 lg:pb-16">
     <div class="container text-center">
       <h2 class="mb-6 text-2xl text-primary sm:mb-8">聽聽他們怎麼說</h2>
       <client-only>
         <swiper
           :options="swiperOptions"
           :pagination="{ clickable: true }"
-          class="!pb-10 sm:pb-0"
+          class="!pb-10 sm:!pb-0"
         >
           <swiper-slide
             class="grid cursor-grabbing grid-cols-2 gap-x-7 gap-y-4 sm:grid-cols-3"
@@ -108,13 +108,13 @@ export default {
           </swiper-slide>
           <div
             slot="button-prev"
-            class="swiper-button-prev !top-[95%] !left-0 !bg-none"
+            class="swiper-button-prev !top-[95%] !left-0 !bg-none sm:hidden"
           >
             <i class="bi bi-arrow-left text-4xl text-primary"></i>
           </div>
           <div
             slot="button-next"
-            class="swiper-button-next !top-[95%] !bg-none"
+            class="swiper-button-next !top-[95%] !bg-none sm:hidden"
           >
             <i class="bi bi-arrow-right text-4xl text-primary"></i>
           </div>
