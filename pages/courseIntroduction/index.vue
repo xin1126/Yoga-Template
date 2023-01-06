@@ -1,9 +1,11 @@
 <script>
 import LimitedCourse from "./components/LimitedCourse.vue";
+import Search from "./components/Search.vue";
 
 export default {
   components: {
     LimitedCourse,
+    Search,
   },
   layout: "BaseLayout",
 };
@@ -12,5 +14,6 @@ export default {
 <template>
   <div>
     <LimitedCourse />
+    <Search />
   </div>
 </template>
