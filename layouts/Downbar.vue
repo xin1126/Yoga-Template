@@ -28,7 +28,10 @@
           />
         </li>
         <li class="mb-2">
-          <NuxtLink to="/" class="duration-500 hover:text-secondary">
+          <NuxtLink
+            to="/courseIntroduction"
+            class="duration-500 hover:text-secondary"
+          >
             課程介紹
           </NuxtLink>
         </li>

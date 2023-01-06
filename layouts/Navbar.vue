@@ -17,10 +17,18 @@ export default {
   <div class="fixed z-20 w-full drop-shadow-lg">
     <div class="relative z-20 bg-light">
       <div class="container flex items-center justify-between">
-        <img src="@/assets/images/logo.png" alt="logo" class="w-[96px] py-7" />
+        <img
+          src="@/assets/images/logo.png"
+          alt="logo"
+          class="w-[96px] cursor-pointer py-7"
+          @click="$router.push('/')"
+        />
         <ul class="hidden text-dark md:flex">
           <li class="mr-8">
-            <NuxtLink to="/" class="duration-500 hover:text-secondary">
+            <NuxtLink
+              to="/courseIntroduction"
+              class="duration-500 hover:text-secondary"
+            >
               課程介紹
             </NuxtLink>
           </li>
@@ -73,7 +81,10 @@ export default {
       :class="[menu ? 'top-[85px]' : '-top-[150px]']"
     >
       <li class="mb-4 pt-6">
-        <NuxtLink to="/" class="duration-500 hover:text-secondary">
+        <NuxtLink
+          to="/courseIntroduction"
+          class="duration-500 hover:text-secondary"
+        >
           課程介紹
         </NuxtLink>
       </li>
