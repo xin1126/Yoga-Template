@@ -11,6 +11,7 @@ export default {
       course,
       modalStatus: false,
       detail: {},
+      spanLong: [1, 4, 5, 8],
     };
   },
   methods: {
@@ -29,10 +30,12 @@ export default {
         class="mb-8 grid gap-7 sm:mb-10 sm:grid-cols-2 xl:mb-0 xl:mr-8 xl:grid-cols-12"
       >
         <div
-          v-for="item in course"
+          v-for="(item, index) in course"
           :key="item.title"
-          class="group relative cursor-pointer"
-          :class="[item.span]"
+          class="group relative cursor-pointer xl:col-span-7"
+          :class="[
+            spanLong.includes(index + 1) ? 'xl:col-span-7' : 'xl:col-span-5',
+          ]"
           data-aos="zoom-in"
           data-aos-duration="500"
           @click="showCourseDetail(item)"
