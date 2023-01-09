@@ -33,7 +33,10 @@ export default {
             </NuxtLink>
           </li>
           <li class="mr-8">
-            <NuxtLink to="/" class="duration-500 hover:text-secondary">
+            <NuxtLink
+              to="/environment"
+              class="duration-500 hover:text-secondary"
+            >
               瑜珈空間
             </NuxtLink>
           </li>
@@ -89,7 +92,7 @@ export default {
         </NuxtLink>
       </li>
       <li class="mb-4">
-        <NuxtLink to="/" class="duration-500 hover:text-secondary">
+        <NuxtLink to="/environment" class="duration-500 hover:text-secondary">
           瑜珈空間
         </NuxtLink>
       </li>
