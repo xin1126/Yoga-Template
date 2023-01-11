@@ -39,8 +39,8 @@
               <td class="border-r border-primary py-2 pl-2">1000-1100</td>
               <td class="pl-2">艾揚格Iyengar</td>
               <td class="bg-light pl-2">哈達Hatha</td>
-              <td>寰宇Universal</td>
-              <td class="bg-light">哈達Hatha</td>
+              <td class="pl-2">寰宇Universal</td>
+              <td class="bg-light pl-2">哈達Hatha</td>
               <td class="pl-2">艾揚格Iyengar</td>
               <td class="bg-light pl-2">雙人飛行</td>
             </tr>
@@ -48,8 +48,8 @@
               <td class="border-r border-primary py-2 pl-2">1100-1200</td>
               <td class="pl-2">寰宇Universal</td>
               <td class="bg-light pl-2">陰陽Yin Yang</td>
-              <td>艾揚格Iyengar</td>
-              <td class="bg-light">寰宇Universal</td>
+              <td class="pl-2">艾揚格Iyengar</td>
+              <td class="bg-light pl-2">寰宇Universal</td>
               <td class="pl-2"></td>
               <td class="bg-light pl-2">艾揚格Iyengar</td>
             </tr>
@@ -61,8 +61,8 @@
               <td class="border-r border-primary py-2 pl-2">1400-1500</td>
               <td class="pl-2">雙人飛行</td>
               <td class="bg-light pl-2">基礎Basic</td>
-              <td>雙人飛行</td>
-              <td class="bg-light">陰陽Yin Yang</td>
+              <td class="pl-2">雙人飛行</td>
+              <td class="bg-light pl-2">陰陽Yin Yang</td>
               <td class="pl-2">雙人飛行</td>
               <td class="bg-light pl-2">基礎Basic</td>
             </tr>
@@ -70,8 +70,8 @@
               <td class="border-r border-primary py-2 pl-2">1500-1600</td>
               <td class="pl-2">陰陽Yin Yang</td>
               <td class="bg-light pl-2">陰陽Yin Yang</td>
-              <td>基礎Basic</td>
-              <td class="bg-light">基礎Basic</td>
+              <td class="pl-2">基礎Basic</td>
+              <td class="bg-light pl-2">基礎Basic</td>
               <td class="pl-2">哈達Hatha</td>
               <td class="bg-light pl-2">香氛瑜珈</td>
             </tr>
@@ -79,8 +79,8 @@
               <td class="border-r border-primary py-2 pl-2">1600-1700</td>
               <td class="pl-2">哈達Hatha</td>
               <td class="bg-light pl-2">雙人飛行</td>
-              <td>陰陽Yin Yang</td>
-              <td class="bg-light">香氛瑜珈</td>
+              <td class="pl-2">陰陽Yin Yang</td>
+              <td class="bg-light pl-2">香氛瑜珈</td>
               <td class="pl-2">艾揚格Iyengar</td>
               <td class="bg-light pl-2">陰陽Yin Yang</td>
             </tr>
@@ -88,8 +88,8 @@
               <td class="border-r border-primary py-2 pl-2">1700-1800</td>
               <td class="pl-2">艾揚格Iyengar</td>
               <td class="bg-light pl-2"></td>
-              <td>哈達Hatha</td>
-              <td class="bg-light">艾揚格Iyengar</td>
+              <td class="pl-2">哈達Hatha</td>
+              <td class="bg-light pl-2">艾揚格Iyengar</td>
               <td class="pl-2">寰宇Universal</td>
               <td class="bg-light pl-2">哈達Hatha</td>
             </tr>
@@ -101,8 +101,8 @@
               <td class="border-r border-primary py-2 pl-2">2000-2100</td>
               <td class="pl-2"></td>
               <td class="bg-light pl-2"></td>
-              <td>香氛瑜珈</td>
-              <td class="bg-light">艾揚格Iyengar</td>
+              <td class="pl-2">香氛瑜珈</td>
+              <td class="bg-light pl-2">艾揚格Iyengar</td>
               <td class="pl-2">香氛瑜珈</td>
               <td class="bg-light pl-2">雙人飛行</td>
             </tr>
