@@ -41,7 +41,10 @@ export default {
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/" class="duration-500 hover:text-secondary">
+            <NuxtLink
+              to="/curriculum"
+              class="duration-500 hover:text-secondary"
+            >
               當月課表
             </NuxtLink>
           </li>
@@ -97,7 +100,7 @@ export default {
         </NuxtLink>
       </li>
       <li class="mb-4">
-        <NuxtLink to="/" class="duration-500 hover:text-secondary">
+        <NuxtLink to="/curriculum" class="duration-500 hover:text-secondary">
           當月課表
         </NuxtLink>
       </li>
