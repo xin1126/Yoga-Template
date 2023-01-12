@@ -26,9 +26,15 @@
       <p class="mb-6 text-xl text-secondary">
         我們都渴望平靜安穩的生活，擁有一處能夠靜心的角落，安撫每天繁雜忙碌的心。
       </p>
-      <a href="#" class="flex items-center text-primary">
+      <a
+        href="#"
+        class="group flex w-fit items-center text-primary hover:text-secondary"
+        @click="$router.push('/environment')"
+      >
         環境介紹
-        <span class="material-icons"> trending_flat </span>
+        <span class="material-icons duration-200 group-hover:translate-x-2">
+          trending_flat
+        </span>
       </a>
     </div>
   </div>

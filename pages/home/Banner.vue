@@ -23,10 +23,21 @@ export default {
       <p class="mb-4 text-xl text-dark md:text-2xl">
         多給自己一點時間享受靜謐，傾聽內心的聲音。
       </p>
-      <BaseButton padding="py-2 px-4" bg="bg-light" class="mr-2">
+      <BaseButton
+        :click="() => $router.push('/reserve')"
+        padding="py-2 px-4"
+        bg="bg-light"
+        class="mr-2"
+      >
         立即預約
       </BaseButton>
-      <BaseButton padding="py-2 px-4" bg="bg-secondary"> 課程介紹 </BaseButton>
+      <BaseButton
+        :click="() => $router.push('/courseIntroduction')"
+        padding="py-2 px-4"
+        bg="bg-secondary"
+      >
+        課程介紹
+      </BaseButton>
     </div>
   </div>
 </template>

@@ -26,9 +26,15 @@ export default {
           <p class="mb-6 text-xl text-secondary">
             教師帶領多元課程，釋放壓力，與身心常見的緊繃不適溫柔和解。
           </p>
-          <a href="#" class="flex items-center text-primary">
+          <a
+            href="#"
+            class="group flex w-fit items-center text-primary hover:text-secondary"
+            @click="$router.push('/courseIntroduction')"
+          >
             課程介紹
-            <span class="material-icons"> trending_flat </span>
+            <span class="material-icons duration-200 group-hover:translate-x-2">
+              trending_flat
+            </span>
           </a>
         </div>
       </div>
