@@ -7,7 +7,6 @@ export default {
     ValidationInput,
     BaseButton,
   },
-  layout: "BaseLayout",
   data() {
     return {
       form: null,
@@ -19,6 +18,7 @@ export default {
         name: "",
         age: "",
         email: "",
+        tel: "",
       },
     };
   },

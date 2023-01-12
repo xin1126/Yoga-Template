@@ -25,7 +25,7 @@ export default {
         rounded="xl"
         class="mr-4 cursor-default sm:mr-7"
       >
-        選擇方案{{ $store.state.schedule }}
+        選擇方案
       </BaseButton>
       <BaseButton
         padding="py-3 sm:px-12 px-[20px]"
