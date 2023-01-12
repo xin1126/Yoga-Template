@@ -35,6 +35,7 @@ export default {
   plugins: [
     { src: "~/plugins/aos", ssr: false },
     { src: "~/plugins/swiper.js", ssr: false },
+    { src: "~/plugins/veevalidate.js", ssr: false },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -48,7 +49,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ["vue-sweetalert2/nuxt"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
