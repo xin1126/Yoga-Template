@@ -10,6 +10,11 @@ export default {
       menu: false,
     };
   },
+  watch: {
+    "$route.path"() {
+      this.menu = false;
+    },
+  },
 };
 </script>
 
