@@ -24,6 +24,11 @@ export default {
       return Result;
     },
   },
+  watch: {
+    schedule() {
+      window.scrollTo(0, 0);
+    },
+  },
   destroyed() {
     this.$store.commit("ResetStore");
   },
