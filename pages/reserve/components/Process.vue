@@ -21,7 +21,7 @@ export default {
     <div class="flex cursor-none justify-center">
       <BaseButton
         padding="py-3 sm:px-12 px-[20px]"
-        bg="bg-primary"
+        :bg="schedule === 1 ? 'bg-primary' : 'bg-light'"
         rounded="xl"
         class="mr-4 cursor-default sm:mr-7"
       >
@@ -29,7 +29,7 @@ export default {
       </BaseButton>
       <BaseButton
         padding="py-3 sm:px-12 px-[20px]"
-        :bg="schedule > 1 ? 'bg-primary' : 'bg-light'"
+        :bg="schedule === 2 ? 'bg-primary' : 'bg-light'"
         rounded="xl"
         class="mr-4 cursor-default sm:mr-7"
       >
@@ -37,7 +37,7 @@ export default {
       </BaseButton>
       <BaseButton
         padding="py-3 sm:px-12 px-[20px]"
-        :bg="schedule > 2 ? 'bg-primary' : 'bg-light'"
+        :bg="schedule === 3 ? 'bg-primary' : 'bg-light'"
         rounded="xl"
         class="cursor-default"
       >
