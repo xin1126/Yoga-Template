@@ -58,7 +58,12 @@ export default {
           >
             立即預約
           </BaseButton>
-          <BaseButton :border="true" padding="py-2 px-4" rounded="xl">
+          <BaseButton
+            :click="() => $router.push('/connection')"
+            :border="true"
+            padding="py-2 px-4"
+            rounded="xl"
+          >
             聯絡我們
           </BaseButton>
         </div>
@@ -110,7 +115,7 @@ export default {
         </NuxtLink>
       </li>
       <li class="pb-6">
-        <NuxtLink to="/" class="duration-500 hover:text-secondary">
+        <NuxtLink to="/connection" class="duration-500 hover:text-secondary">
           聯絡我們
         </NuxtLink>
       </li>
