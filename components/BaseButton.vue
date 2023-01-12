@@ -38,7 +38,7 @@ export default {
       bg,
       padding,
     ]"
-    class="duration-200"
+    class="whitespace-nowrap duration-200"
     @click="click"
   >
     <slot />

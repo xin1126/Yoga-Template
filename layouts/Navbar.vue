@@ -52,6 +52,7 @@ export default {
         <div class="hidden md:flex">
           <BaseButton
             class="mr-4"
+            :click="() => $router.push('/reserve')"
             :border="true"
             padding="py-2 px-4"
             rounded="xl"
@@ -110,7 +111,7 @@ export default {
         </NuxtLink>
       </li>
       <li class="mb-4">
-        <NuxtLink to="/" class="duration-500 hover:text-secondary">
+        <NuxtLink to="/reserve" class="duration-500 hover:text-secondary">
           立即預約
         </NuxtLink>
       </li>
