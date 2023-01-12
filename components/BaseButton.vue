@@ -17,6 +17,10 @@ export default {
       type: String,
       default: "",
     },
+    click: {
+      type: Function,
+      default: () => {},
+    },
   },
 };
 </script>
@@ -35,6 +39,7 @@ export default {
       padding,
     ]"
     class="duration-200"
+    @click="click"
   >
     <slot />
   </button>
