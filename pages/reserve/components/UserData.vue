@@ -194,7 +194,7 @@ export default {
           </div>
         </div>
         <div class="mb-8">
-          <p>4. 上課預約報到日?</p>
+          <p>4. 上課預約報到日</p>
           <p>若還沒有確定的日期，可以等待專員與您聯絡時再做詳細的諮詢哦！</p>
           <ValidationInput
             v-model="user.date"
@@ -206,7 +206,7 @@ export default {
           />
         </div>
         <div class="mb-8">
-          <p class="mb-4">5. 填寫基本資料，完成預約後會寄送通知至電子信箱?</p>
+          <p class="mb-4">5. 填寫基本資料，完成預約後會寄送通知至電子信箱</p>
           <div class="flex">
             <ValidationInput
               v-model="user.name"

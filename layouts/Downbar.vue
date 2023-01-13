@@ -36,12 +36,12 @@
           </NuxtLink>
         </li>
         <li class="mb-2">
-          <NuxtLink to="/" class="duration-500 hover:text-secondary">
+          <NuxtLink to="/environment" class="duration-500 hover:text-secondary">
             瑜珈空間
           </NuxtLink>
         </li>
         <li class="mb-2 sm:mb-0">
-          <NuxtLink to="/" class="duration-500 hover:text-secondary">
+          <NuxtLink to="/curriculum" class="duration-500 hover:text-secondary">
             當月課表
           </NuxtLink>
         </li>

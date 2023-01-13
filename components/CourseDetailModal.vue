@@ -41,7 +41,13 @@ export default {
         <p class="mb-4">
           課堂裡老師會視同學狀況安排教導倒立動作，對於不敢嘗試倒立的同學來說，藉由掛布的支持與保護，加上老師細心指導，讓同學能更快掌握。
         </p>
-        <BaseButton padding="px-4 py-2" bg="bg-light"> 立即預約 </BaseButton>
+        <BaseButton
+          padding="px-4 py-2"
+          bg="bg-light"
+          :click="() => $router.push('reserve')"
+        >
+          立即預約
+        </BaseButton>
       </div>
     </div>
   </div>

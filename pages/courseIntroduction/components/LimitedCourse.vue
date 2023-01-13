@@ -35,7 +35,11 @@ export default {
           <li>藉由掛布的支持與保護</li>
           <li>加上老師細心指導，讓同學能更快掌握</li>
         </ul>
-        <BaseButton padding="px-4 py-2" bg="bg-secondary">
+        <BaseButton
+          padding="px-4 py-2"
+          bg="bg-secondary"
+          :click="() => $router.push('reserve')"
+        >
           立即預約
         </BaseButton>
       </div>
